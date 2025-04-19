@@ -1,29 +1,31 @@
+import { ProjectsImg } from "./imports.jsx";
+
 const projectsData = [
     {
         title: "Capstone II Project",
         description: "Payroll System with Generated QR Code for Employee Attendance Monitoring",
-        image: "src/images/capstone.png",
+        image: ProjectsImg.Capstone2Img,
         techStack: ["SCSS", "Javascript", "PHP", "MySQL"],
         githubLink: "https://github.com/VawnDyu/Capstone-Project",
     },
     {
       title: "Capstone I Project",
       description: "Barangay Clearance System and Queuing System",
-      image: "src/images/bcqsystem.png",
+      image: ProjectsImg.Capstone1Img,
       techStack: ["VB.Net", "Crystal Reports", "MySQL"],
       githubLink: "https://github.com/VawnDyu/Barangay-Clearance-System",
     },
     {
         title: "Dating Simulator Game",
         description: "A Visual Novel Dating Simulator Game (WIP)",
-        image: "src/images/datingsimulatorgame.png",
+        image: ProjectsImg.DatingSimImg,
         techStack: ["Python", "TKinter"],
         githubLink: "https://github.com/VawnDyu/Dating-Simulator-Game",
     },
     {
         title: "Guess the Picture",
         description: "Guess the Picture is a kid interactive game with timer and scoreboard",
-        image: "src/images/gtp2.png",
+        image: ProjectsImg.GTPImg,
         techStack: ["React", "CSS", "Javascript"],
         liveLink: "https://vawndyu.github.io/Guess-the-picture",
         githubLink: "https://github.com/VawnDyu/Guess-the-picture",
@@ -31,7 +33,7 @@ const projectsData = [
     {
         title: "Doodle's Portfolio",
         description: "Doodle's Commissioned Portfolio for Social Media Assets",
-        image: "src/images/portfolio1.png",
+        image: ProjectsImg.DoodleImg,
         techStack: ["React", "CSS", "Javascript"],
         liveLink: "https://vawndyu.github.io/Doodles-Portfolio",
         githubLink: "https://github.com/VawnDyu/Doodles-Portfolio",
@@ -39,7 +41,7 @@ const projectsData = [
     {
         title: "Poke-Search",
         description: "A PokeDex that you can search any pokemon you want.",
-        image: "src/images/pokesearch.png",
+        image: ProjectsImg.PokeSearchImg,
         techStack: ["React", "CSS", "Javascript", "PokeAPI"],
         liveLink: "https://vawndyu.github.io/PokeSearch",
         githubLink: "https://github.com/VawnDyu/PokeSearch",
@@ -47,7 +49,7 @@ const projectsData = [
     {
         title: "Gacha",
         description: "A Gacha game that counts the amount of your gacha pulls.",
-        image: "src/images/gacha.png",
+        image: ProjectsImg.GachaImg,
         techStack: ["React", "CSS", "Javascript"],
         liveLink: "https://vawndyu.github.io/Gacha",
         githubLink: "https://github.com/VawnDyu/Gacha",
@@ -55,7 +57,7 @@ const projectsData = [
     {
         title: "Vonne Dew's Portfolio",
         description: "A personal portfolio website built with React.",
-        image: "src/images/vonnedewportfolio.png",
+        image: ProjectsImg.MyPortfolioImg,
         techStack: ["React", "CSS", "Javascript", "Vite"],
         liveLink: "https://vawndyu.github.io/Gacha",
         githubLink: "https://github.com/VawnDyu/Gacha",

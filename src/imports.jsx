@@ -14,6 +14,27 @@ import VSCodeImg from './assets/vscode.png';
 import NPMImg from './assets/npm.png';
 import ViteImg from './assets/vite.png';
 
+import Capstone2Img from './images/capstone.png';
+import Capstone1Img from './images/bcqsystem.png';
+import DatingSimImg from './images/datingsimulatorgame.png';
+import GTPImg from './images/gtp2.png';
+import DoodleImg from './images/portfolio1.png';
+import PokeSearchImg from './images/pokesearch.png';
+import GachaImg from './images/gacha.png';
+import MyPortfolioImg from './images/vonnedewportfolio.png';
+
+
+export const ProjectsImg = {
+  Capstone2Img,
+  Capstone1Img,
+  DatingSimImg,
+  GTPImg,
+  DoodleImg,
+  PokeSearchImg,
+  GachaImg,
+  MyPortfolioImg,
+};
+
 export const AssetsImg = {
     ProfilePic,
     GithubImg,
