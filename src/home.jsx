@@ -23,7 +23,7 @@ function Home() {
         <section className="about-me">
         <h1>About Me</h1>
         <p>
-        Hi! I'm Vonne Dew — a passionate Web Developer who loves turning ideas into interactive digital experiences. 
+        Hi! I'm Vonne Dew — a passionate Web Developer who loves turning ideas into interactive digital experiences.
         I'm skilled in HTML, CSS, JavaScript, ReactJS, PHP, and MySQL. I enjoy building responsive and user-friendly websites that not only look great but also function smoothly.
         Whether it's creating dynamic frontends with React or connecting databases with PHP and MySQL, I thrive on solving problems and learning new things every day.
         <br/> <br/>
@@ -47,6 +47,8 @@ function Home() {
               <li><img src={AssetsImg.PHPImg} title="PHP" /></li>
               <li><img src={AssetsImg.JavaImg} title="Java" /></li>
               <li><img src={AssetsImg.PythonImg} title="Python" /></li>
+              <li><img src={AssetsImg.NodeJSImg} title="Node.js" /></li>
+              <li><img src={AssetsImg.ExpressJSImg} title="Express.js" /></li>
             </ul>
           </div>
         </div>
@@ -56,6 +58,7 @@ function Home() {
               <ul>
                 <li><img src={AssetsImg.SQLImg} title="SQL" /></li>
                 <li><img src={AssetsImg.MySQLImg} title="MySQL" /></li>
+                <li><img src={AssetsImg.MongoDBImg} alt="MongoDB" /></li>
               </ul>
             </div>
             <div className="dev-tools-stack">

@@ -2,6 +2,13 @@ import { ProjectsImg } from "./imports.jsx";
 
 const projectsData = [
     {
+        title: "Food Ordering System",
+        description: "A full-stack Food Ordering System built with the MERN stack and Vite.",
+        image: ProjectsImg.FoodOrderingSystemImg,
+        techStack: ["MERN", "JWT", "Socket.IO", "RESTful API"],
+        githubLink: "https://github.com/VawnDyu/foodorderingsystem",
+    },
+    {
         title: "Capstone II Project",
         description: "Payroll System with Generated QR Code for Employee Attendance Monitoring",
         image: ProjectsImg.Capstone2Img,
@@ -59,9 +66,9 @@ const projectsData = [
         description: "A personal portfolio website built with React.",
         image: ProjectsImg.MyPortfolioImg,
         techStack: ["React", "CSS", "Javascript", "Vite"],
-        liveLink: "https://vawndyu.github.io/Gacha",
-        githubLink: "https://github.com/VawnDyu/Gacha",
+        liveLink: "https://vawndyu.github.io/My-Portfolio",
+        githubLink: "https://github.com/VawnDyu/My-Portfolio",
     },
   ];
-  
+
   export default projectsData;

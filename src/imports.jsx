@@ -13,7 +13,11 @@ import MySQLImg from './assets/mysql.svg';
 import VSCodeImg from './assets/vscode.png';
 import NPMImg from './assets/npm.png';
 import ViteImg from './assets/vite.png';
+import MongoDBImg from './assets/MongoDB.png';
+import NodeJSImg from './assets/nodejs.svg';
+import ExpressJSImg from './assets/expressjS.svg';
 
+import FoodOrderingSystemImg from './images/FoodOrderingSystem.png';
 import Capstone2Img from './images/capstone.png';
 import Capstone1Img from './images/bcqsystem.png';
 import DatingSimImg from './images/datingsimulatorgame.png';
@@ -33,6 +37,7 @@ export const ProjectsImg = {
   PokeSearchImg,
   GachaImg,
   MyPortfolioImg,
+  FoodOrderingSystemImg
 };
 
 export const AssetsImg = {
@@ -51,4 +56,7 @@ export const AssetsImg = {
     VSCodeImg,
     NPMImg,
     ViteImg,
+    MongoDBImg,
+    NodeJSImg,
+    ExpressJSImg,
   };
