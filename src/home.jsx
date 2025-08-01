@@ -23,12 +23,13 @@ function Home() {
         <section className="about-me">
         <h1>About Me</h1>
         <p>
-        Hi! I'm Vonne Dew — a passionate Web Developer who loves turning ideas into interactive digital experiences.
-        I'm skilled in HTML, CSS, JavaScript, ReactJS, PHP, and MySQL. I enjoy building responsive and user-friendly websites that not only look great but also function smoothly.
-        Whether it's creating dynamic frontends with React or connecting databases with PHP and MySQL, I thrive on solving problems and learning new things every day.
-        <br/> <br/>
-        I'm currently seeking opportunities to grow as a developer — whether it's through freelance projects or joining a creative development team.
-        When I'm not coding, you might find me sketching, exploring design trends, or sipping coffee while brainstorming my next side project.
+          Hi! I'm Vonne Dew — a passionate Full Stack Web Developer with a focus on the MERN stack (MongoDB, Express, React, Node.js). I love transforming ideas into interactive digital experiences, from building responsive user interfaces to developing robust backend systems.
+          <br /><br />
+          While my strengths lie in web development, I'm also curious about game development, especially creating visual novel-style experiences — it’s something I’m still learning, but very excited to grow in.
+          <br /><br />
+          I enjoy crafting clean, user-friendly applications that work smoothly across devices. Whether it's building dynamic frontends with React or designing secure APIs with Node and Express, I thrive on solving real-world problems and constantly learning.
+          <br /><br />
+          I'm currently looking for opportunities to grow professionally — either through freelance work or by collaborating with a creative team. Outside of coding, I love sketching, exploring design trends, and sipping coffee while dreaming up my next passion project.
         </p>
         <div className="tech-stacks">
           <div className="frontend-stack">
@@ -56,7 +57,6 @@ function Home() {
             <div className="database-stack">
               <h2>Database</h2>
               <ul>
-                <li><img src={AssetsImg.SQLImg} title="SQL" /></li>
                 <li><img src={AssetsImg.MySQLImg} title="MySQL" /></li>
                 <li><img src={AssetsImg.MongoDBImg} alt="MongoDB" /></li>
               </ul>
@@ -72,9 +72,6 @@ function Home() {
             </div>
         </div>
       </section>
-      {/* <Link to="/projects" className="btn btn-primary">
-        View My Projects
-      </Link> */}
     </section>
   );
 }
