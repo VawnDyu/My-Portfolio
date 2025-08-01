@@ -68,7 +68,7 @@
   .main-container > .about-me {
     color: var(--mainColor);
     background: var(--textColor);
-    height: 100vh;
+    min-height: calc(100dvh + 25vh);
   }
 
   .main-container > .about-me > h1 {
@@ -190,16 +190,10 @@
 
   .main-container > .about-me > .tech-stacks-two > .database-stack > ul > li:nth-child(1) > img {
     height: 50px;
-    width: 95px;
-    padding: 5px;
-  }
-
-  .main-container > .about-me > .tech-stacks-two > .database-stack > ul > li:nth-child(2) > img {
-    height: 50px;
     width: 70px;
   }
 
-  .main-container > .about-me > .tech-stacks-two > .database-stack > ul > li:nth-child(3) > img {
+  .main-container > .about-me > .tech-stacks-two > .database-stack > ul > li:nth-child(2) > img {
     height: 45px;
     padding: 15px 0 0 0;
   }
@@ -231,7 +225,7 @@
 
   @media only screen and (max-width: 1024px) {
     .main-container > .about-me {
-      height: 145vh;
+      min-height: calc(100dvh + 80vh);
     }
 
     .main-container > .about-me > .tech-stacks {
@@ -356,7 +350,7 @@
         color: var(--mainColor);
         background: var(--textColor);
         width: 100vw;
-        height: 110vh;
+        min-height: calc(100dvh + 45vh);
       }
 
       .main-container > .about-me > h1 {
@@ -470,18 +464,12 @@
 
       .main-container > .about-me > .tech-stacks-two > .database-stack > ul > li:nth-child(1) > img {
         height: 40px;
-        width: 75px;
-        padding: 5px;
+        width: 60px;
       }
 
       .main-container > .about-me > .tech-stacks-two > .database-stack > ul > li:nth-child(2) > img {
         height: 40px;
-        width: 60px;
-      }
-
-      .main-container > .about-me > .tech-stacks-two > .database-stack > ul > li:nth-child(3) > img {
-        height: 40px;
-        padding: 5px 0 0 0;
+        padding: 8px;
       }
 
       .main-container > .about-me > .tech-stacks-two > .dev-tools-stack {
@@ -510,7 +498,7 @@
 
   @media only screen and (max-width: 426px) {
     .main-container > .about-me {
-      height: 200vh;
+    min-height: calc(100dvh + 140vh);
     }
 
     .main-container > .about-me > .tech-stacks > .frontend-stack{
@@ -610,18 +598,12 @@
 
     .main-container > .about-me > .tech-stacks-two > .database-stack > ul > li:nth-child(1) > img {
         height: 40px;
-        width: 75px;
-        padding: 5px;
+        width: 60px;
     }
 
     .main-container > .about-me > .tech-stacks-two > .database-stack > ul > li:nth-child(2) > img {
         height: 40px;
-        width: 60px;
-    }
-
-    .main-container > .about-me > .tech-stacks-two > .database-stack > ul > li:nth-child(3) > img {
-        height: 40px;
-        padding: 10px 0 5px 0;
+        padding: 10px 0 4px 0;
     }
 
       .main-container > .about-me > .tech-stacks-two > .dev-tools-stack {
@@ -684,7 +666,7 @@
     }
 
     .main-container > .about-me {
-        height: 170vh;
+      min-height: calc(100dvh + 115vh);
     }
 
     .main-container > .about-me > h1 {
@@ -790,13 +772,12 @@
 
     .main-container > .about-me > .tech-stacks-two > .database-stack > ul > li:nth-child(1) > img {
         height: 40px;
-        width: 75px;
-        padding: 5px;
+        width: 70px;
     }
 
     .main-container > .about-me > .tech-stacks-two > .database-stack > ul > li:nth-child(2) > img {
         height: 40px;
-        width: 60px;
+        padding: 10px 0 4px 0;
     }
 
       .main-container > .about-me > .tech-stacks-two > .dev-tools-stack {
@@ -827,6 +808,6 @@
 
   @media only screen and (max-width: 321px) {
     .main-container > .about-me {
-        height: 200vh;
+      min-height: calc(100dvh + 145vh);
     }
   }
