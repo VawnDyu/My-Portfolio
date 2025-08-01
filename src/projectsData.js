@@ -66,8 +66,8 @@ const projectsData = [
         description: "A personal portfolio website built with React.",
         image: ProjectsImg.MyPortfolioImg,
         techStack: ["React", "CSS", "Javascript", "Vite"],
-        liveLink: "https://vawndyu.github.io/My-Portfolio",
-        githubLink: "https://github.com/VawnDyu/My-Portfolio",
+        liveLink: "https://vawndyu.github.io",
+        githubLink: "https://github.com/VawnDyu/vawndyu.github.io",
     },
   ];
 
