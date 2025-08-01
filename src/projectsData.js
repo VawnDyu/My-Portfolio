@@ -23,8 +23,8 @@ const projectsData = [
       githubLink: "https://github.com/VawnDyu/Barangay-Clearance-System",
     },
     {
-        title: "Dating Simulator Game",
-        description: "A Visual Novel Dating Simulator Game (WIP)",
+        title: "Visual Novel Game",
+        description: "A story-driven visual novel. Explore choices, characters, and hidden secrets.",
         image: ProjectsImg.DatingSimImg,
         techStack: ["Python", "TKinter"],
         githubLink: "https://github.com/VawnDyu/Dating-Simulator-Game",
