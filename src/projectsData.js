@@ -27,7 +27,7 @@ const projectsData = [
         description: "A story-driven visual novel. Explore choices, characters, and hidden secrets.",
         image: ProjectsImg.DatingSimImg,
         techStack: ["Python", "TKinter"],
-        githubLink: "https://github.com/VawnDyu/Dating-Simulator-Game",
+        githubLink: "https://github.com/VawnDyu/Visual-Novel-Game",
     },
     {
         title: "Guess the Picture",
